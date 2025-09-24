@@ -4,10 +4,11 @@ plugins {
 
 android {
     namespace = "com.drdisagree.colorblendr.systemstubs"
-    compileSdk = 34
-
+    compileSdk = 36
+    buildToolsVersion = "36.0.0"
     defaultConfig {
         minSdk = 31
+        targetSdk = 36
     }
 
     buildTypes {
