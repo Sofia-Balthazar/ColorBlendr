@@ -5,7 +5,7 @@ plugins {
 android {
     compileSdk 36
     namespace "me.jfenn.colorpickerdialog"
-
+    buildToolsVersion "36.0.0"
     defaultConfig {
         minSdk 31
         targetSdk 36
